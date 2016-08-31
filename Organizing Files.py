@@ -8,7 +8,7 @@ new_path_music = os.getcwd() + "\Music"
 new_path_folders_movie = os.getcwd() + "\Movies"
 new_path_programs = os.getcwd() + "\Downloaded Programs and Games"
 new_path_folders_files = os.getcwd() + "\Files"
-
+# hello edit
 # Check if folders exists, if not then make them
 if not os.path.exists(new_path_torrent):
     os.makedirs(new_path_torrent)
