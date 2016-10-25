@@ -1,5 +1,5 @@
 
-  <content><![CDATA[
+  <content>
 # File Organizer
 My first python script I wrote to clean up Downloads folder after reading "Automate the Boring Stuff with Python" by Al Sweigart
 ## Installation
