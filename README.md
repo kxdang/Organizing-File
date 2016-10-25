@@ -20,7 +20,10 @@ The under the Organizing functions, follow the format
 if obj.endswith('*.mp3*','*.mp4*'):
         mover(obj, new_path_*music*)
         
-You can specify which file type you want to move, in this case, we have chosen .mp3 and .mp4 file extensions, so the File Organizer script will run looking for any files with these extensions and then move them to the new_path_music we specified which is the folder it makes or if the folder is there it will send it to that folder.
+You can specify which file type you want to move, in this case, we have chosen .mp3 and .mp4 file extensions, so the File Organizer script will run looking for any files with these extensions and then move them to the new_path_music we specified.
+
+If the file does not exist, it will make the folder Music. If it does exist, it will continue and move any files with the following extensions that we specified.
+
 
 ## Bugs
  * Will not move files if the file already exists in there and eventually stops the entire program - Will find a fix soon
