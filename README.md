@@ -24,10 +24,13 @@ You can specify which file type you want to move, in this case, we have chosen .
 
 ## Bugs
  * Will not move files if the file already exists in there and eventually stops the entire program - Will find a fix soon
+ 
+
 ## Credits (Debuggers)
  * Tommy Tran
  * Adrian Lee
  * Kelvin Kong
+ 
 ## License
  - Feel free to use and distribute.
 ]]></content>
