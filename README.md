@@ -13,21 +13,23 @@ For creating a new desired folder you must define what the folder would be
 
 e.g To make a music folder
 
-new_path_music = os.getcwd() + "\Music"
+new_path_*music* = os.getcwd() + "\Music"
 
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+The under the Organizing functions, follow the format
 
-## History
-TODO: Write history
-## Credits
+if obj.endswith('*.mp3*','*.mp4*'):
+        mover(obj, new_path_*music*)
+        
+You can specify which file type you want to move, in this case, we have chosen .mp3 and .mp4 file extensions, so the File Organizer script will run looking for any files with these extensions and then move them to the new_path_music we specified which is the folder it makes or if the folder is there it will send it to that folder.
 
+## Bugs
+ - Will not move files if the file already exists in there and eventually stops the entire program - Will find a fix soon
+## Credits (Debuggers)
+ - Tommy Tran
+ - Adrian Lee
+ - Kelvin Kong
 ## License
-TODO: Write license
+ - Feel free to use and distribute.
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 
