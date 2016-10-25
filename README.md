@@ -9,8 +9,9 @@ It creates a one-file bundled executable for you to schedule the program via Win
 You can edit the OrganizingFiles.py code using a text editor
 
 For creating a new desired folder you must define what the folder would be
-e.g 
-To make a music folder
+
+
+e.g To make a music folder
 
 new_path_music = os.getcwd() + "\Music"
 
