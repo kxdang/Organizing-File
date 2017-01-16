@@ -4,7 +4,9 @@ My first python script I wrote to clean up Downloads folder after reading "Autom
 ## Installation
 Windows OS only.
 Requires python and PyInstaller with the line "pyinstaller –onefile OrganizingFiles.py" 
-It creates a one-file bundled executable for you to schedule the program via Windows Scheduler
+It creates a one-file bundled executable for you to schedule the program via Windows Scheduler.
+
+You can also used the .exe file that I have already compiled to test run the program which is availabe for download above.
 ## Usage
 You can edit the OrganizingFiles.py code using a text editor
 
