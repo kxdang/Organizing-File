@@ -1,5 +1,5 @@
 <content>
-# File Organizer
+File Organizer
 My first python script I wrote to clean up Downloads folder after reading "Automate the Boring Stuff with Python" by Al Sweigart
 ## Installation
 Windows OS only.
@@ -35,5 +35,3 @@ If the file does not exist, it will make the folder Music. If it does exist, it 
 ## License
  - Feel free to use and distribute.
 </content>
-  <tabTrigger>readme</tabTrigger>
-
