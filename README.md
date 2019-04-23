@@ -1,6 +1,8 @@
 <content>
 File Organizer
 My first python script I wrote to clean up Downloads folder after reading "Automate the Boring Stuff with Python" by Al Sweigart
+
+
 ## Installation
 Windows OS only.
 Requires python and PyInstaller with the line "pyinstaller –onefile OrganizingFiles.py" 
