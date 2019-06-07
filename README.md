@@ -1,19 +1,17 @@
-<content>
-File Organizer
+## File Organizer
 My first python script I wrote to clean up Downloads folder after reading "Automate the Boring Stuff with Python" by Al Sweigart
-
 
 ## Installation
 Windows OS only.
 Requires python and PyInstaller with the line "pyinstaller –onefile OrganizingFiles.py" 
 It creates a one-file bundled executable for you to schedule the program via Windows Scheduler.
 
+
 You can also used the .exe file that I have already compiled to test run the program which is availabe for download above.
 ## Usage
 You can edit the OrganizingFiles.py code using a text editor
 
 For creating a new desired folder you must define what the folder would be
-
 
 e.g To make a music folder
 
@@ -30,7 +28,7 @@ If the file does not exist, it will make the folder Music. If it does exist, it 
 
 
 ## Bugs
- * Will not move files if the file already exists in there and eventually stops the entire program - Will find a fix soon
+ * Will not move files if the file already exists in there and eventually stops the program
  
 
 
